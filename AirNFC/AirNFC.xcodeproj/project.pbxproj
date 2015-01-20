@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3BCABB16C1340600C4DEB5 /* AMAudioConnectionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BCABA16C1340600C4DEB5 /* AMAudioConnectionEngine.m */; };
+		6D3BCB0716C2CCD300C4DEB5 /* AMDeviceDiscovererModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BCB0616C2CCD300C4DEB5 /* AMDeviceDiscovererModem.m */; };
+		6DD1C80816BAC79E00F24238 /* TPCircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C80416BAC79E00F24238 /* TPCircularBuffer.m */; };
+		CE4292AC167DD22F0047BD91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4292AB167DD22F0047BD91 /* UIKit.framework */; };
+		CE4292AE167DD22F0047BD91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4292AD167DD22F0047BD91 /* Foundation.framework */; };
+		CE4292B0167DD22F0047BD91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4292AF167DD22F0047BD91 /* CoreGraphics.framework */; };
+		CE4292B6167DD22F0047BD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4292B4167DD22F0047BD91 /* InfoPlist.strings */; };
+		CE4292B8167DD22F0047BD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4292B7167DD22F0047BD91 /* main.m */; };
+		CE4292BC167DD22F0047BD91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4292BB167DD22F0047BD91 /* AppDelegate.m */; };
+		CE4292BE167DD22F0047BD91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4292BD167DD22F0047BD91 /* Default.png */; };
+		CE4292C0167DD22F0047BD91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4292BF167DD22F0047BD91 /* Default@2x.png */; };
+		CE4292C2167DD22F0047BD91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4292C1167DD22F0047BD91 /* Default-568h@2x.png */; };
+		CE4292C5167DD22F0047BD91 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4292C3167DD22F0047BD91 /* MainStoryboard.storyboard */; };
+		CE4292C8167DD22F0047BD91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4292C7167DD22F0047BD91 /* ViewController.m */; };
+		CE4292D0167DD2860047BD91 /* AirNFC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4292CF167DD2860047BD91 /* AirNFC.m */; };
+		CE4292D2167DD2960047BD91 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4292D1167DD2960047BD91 /* Accelerate.framework */; };
+		CE4292D4167DD2A30047BD91 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4292D3167DD2A30047BD91 /* AudioToolbox.framework */; };
+		CE4292D6167DD2AB0047BD91 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4292D5167DD2AB0047BD91 /* AVFoundation.framework */; };
+		CE4292E1167E47150047BD91 /* AMAudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4292E0167E47150047BD91 /* AMAudioSessionManager.m */; };
+		CE4292E4167E4FC40047BD91 /* AirNFCErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4292E3167E4FC40047BD91 /* AirNFCErrors.m */; };
+		CE5256B1169B6BA400DB1DA8 /* AMAudioPort.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5256B0169B6BA400DB1DA8 /* AMAudioPort.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D3BCAB916C1340600C4DEB5 /* AMAudioConnectionEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAudioConnectionEngine.h; sourceTree = "<group>"; };
+		6D3BCABA16C1340600C4DEB5 /* AMAudioConnectionEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAudioConnectionEngine.m; sourceTree = "<group>"; };
+		6D3BCB0516C2CCD300C4DEB5 /* AMDeviceDiscovererModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDeviceDiscovererModem.h; sourceTree = "<group>"; };
+		6D3BCB0616C2CCD300C4DEB5 /* AMDeviceDiscovererModem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDeviceDiscovererModem.m; sourceTree = "<group>"; };
+		6DD1C80416BAC79E00F24238 /* TPCircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCircularBuffer.m; sourceTree = "<group>"; };
+		6DD1C80516BAC79E00F24238 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		CE4292A7167DD22F0047BD91 /* AirNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4292AB167DD22F0047BD91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE4292AD167DD22F0047BD91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE4292AF167DD22F0047BD91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE4292B3167DD22F0047BD91 /* AirNFC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirNFC-Info.plist"; sourceTree = "<group>"; };
+		CE4292B5167DD22F0047BD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE4292B7167DD22F0047BD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE4292B9167DD22F0047BD91 /* AirNFC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirNFC-Prefix.pch"; sourceTree = "<group>"; };
+		CE4292BA167DD22F0047BD91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE4292BB167DD22F0047BD91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE4292BD167DD22F0047BD91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE4292BF167DD22F0047BD91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE4292C1167DD22F0047BD91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE4292C4167DD22F0047BD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE4292C6167DD22F0047BD91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE4292C7167DD22F0047BD91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE4292CE167DD2860047BD91 /* AirNFC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirNFC.h; sourceTree = "<group>"; };
+		CE4292CF167DD2860047BD91 /* AirNFC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirNFC.m; sourceTree = "<group>"; };
+		CE4292D1167DD2960047BD91 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CE4292D3167DD2A30047BD91 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE4292D5167DD2AB0047BD91 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE4292D7167DFB2D0047BD91 /* AMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtilities.h; sourceTree = "<group>"; };
+		CE4292D9167DFDD70047BD91 /* AirNFCConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirNFCConfiguration.h; sourceTree = "<group>"; };
+		CE4292DF167E47150047BD91 /* AMAudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAudioSessionManager.h; sourceTree = "<group>"; };
+		CE4292E0167E47150047BD91 /* AMAudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAudioSessionManager.m; sourceTree = "<group>"; };
+		CE4292E2167E4DB70047BD91 /* AirNFCErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirNFCErrors.h; sourceTree = "<group>"; };
+		CE4292E3167E4FC40047BD91 /* AirNFCErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirNFCErrors.m; sourceTree = "<group>"; };
+		CE5256AF169B6BA400DB1DA8 /* AMAudioPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAudioPort.h; sourceTree = "<group>"; };
+		CE5256B0169B6BA400DB1DA8 /* AMAudioPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAudioPort.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4292A4167DD22F0047BD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4292D6167DD2AB0047BD91 /* AVFoundation.framework in Frameworks */,
+				CE4292D4167DD2A30047BD91 /* AudioToolbox.framework in Frameworks */,
+				CE4292D2167DD2960047BD91 /* Accelerate.framework in Frameworks */,
+				CE4292AC167DD22F0047BD91 /* UIKit.framework in Frameworks */,
+				CE4292AE167DD22F0047BD91 /* Foundation.framework in Frameworks */,
+				CE4292B0167DD22F0047BD91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3BCABC16C1371A00C4DEB5 /* Audio Connection Engine */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BCAB916C1340600C4DEB5 /* AMAudioConnectionEngine.h */,
+				6D3BCABA16C1340600C4DEB5 /* AMAudioConnectionEngine.m */,
+				6D3BCABD16C1372D00C4DEB5 /* Helpers */,
+				6D3BCB0416C2C2C100C4DEB5 /* Modems */,
+			);
+			name = "Audio Connection Engine";
+			sourceTree = "<group>";
+		};
+		6D3BCABD16C1372D00C4DEB5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292DF167E47150047BD91 /* AMAudioSessionManager.h */,
+				CE4292E0167E47150047BD91 /* AMAudioSessionManager.m */,
+				CE5256AF169B6BA400DB1DA8 /* AMAudioPort.h */,
+				CE5256B0169B6BA400DB1DA8 /* AMAudioPort.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6D3BCB0416C2C2C100C4DEB5 /* Modems */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BCB0516C2CCD300C4DEB5 /* AMDeviceDiscovererModem.h */,
+				6D3BCB0616C2CCD300C4DEB5 /* AMDeviceDiscovererModem.m */,
+			);
+			name = Modems;
+			sourceTree = "<group>";
+		};
+		6DD1C80316BAC78400F24238 /* Circular Buffer */ = {
+			isa = PBXGroup;
+			children = (
+				6DD1C80516BAC79E00F24238 /* TPCircularBuffer.h */,
+				6DD1C80416BAC79E00F24238 /* TPCircularBuffer.m */,
+			);
+			name = "Circular Buffer";
+			sourceTree = "<group>";
+		};
+		CE42929C167DD22F0047BD91 = {
+			isa = PBXGroup;
+			children = (
+				CE4292B1167DD22F0047BD91 /* AirNFC */,
+				CE4292AA167DD22F0047BD91 /* Frameworks */,
+				CE4292A8167DD22F0047BD91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4292A8167DD22F0047BD91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292A7167DD22F0047BD91 /* AirNFC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4292AA167DD22F0047BD91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292D5167DD2AB0047BD91 /* AVFoundation.framework */,
+				CE4292D3167DD2A30047BD91 /* AudioToolbox.framework */,
+				CE4292D1167DD2960047BD91 /* Accelerate.framework */,
+				CE4292AB167DD22F0047BD91 /* UIKit.framework */,
+				CE4292AD167DD22F0047BD91 /* Foundation.framework */,
+				CE4292AF167DD22F0047BD91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4292B1167DD22F0047BD91 /* AirNFC */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292DE167E0E180047BD91 /* AirNFC */,
+				CE4292D8167DFB770047BD91 /* Utilities */,
+				CE4292BA167DD22F0047BD91 /* AppDelegate.h */,
+				CE4292BB167DD22F0047BD91 /* AppDelegate.m */,
+				CE4292C3167DD22F0047BD91 /* MainStoryboard.storyboard */,
+				CE4292C6167DD22F0047BD91 /* ViewController.h */,
+				CE4292C7167DD22F0047BD91 /* ViewController.m */,
+				CE4292B2167DD22F0047BD91 /* Supporting Files */,
+			);
+			path = AirNFC;
+			sourceTree = "<group>";
+		};
+		CE4292B2167DD22F0047BD91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292B3167DD22F0047BD91 /* AirNFC-Info.plist */,
+				CE4292B4167DD22F0047BD91 /* InfoPlist.strings */,
+				CE4292B7167DD22F0047BD91 /* main.m */,
+				CE4292B9167DD22F0047BD91 /* AirNFC-Prefix.pch */,
+				CE4292BD167DD22F0047BD91 /* Default.png */,
+				CE4292BF167DD22F0047BD91 /* Default@2x.png */,
+				CE4292C1167DD22F0047BD91 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE4292D8167DFB770047BD91 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292D7167DFB2D0047BD91 /* AMUtilities.h */,
+				6DD1C80316BAC78400F24238 /* Circular Buffer */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CE4292DE167E0E180047BD91 /* AirNFC */ = {
+			isa = PBXGroup;
+			children = (
+				CE4292E2167E4DB70047BD91 /* AirNFCErrors.h */,
+				CE4292E3167E4FC40047BD91 /* AirNFCErrors.m */,
+				CE4292D9167DFDD70047BD91 /* AirNFCConfiguration.h */,
+				CE4292CE167DD2860047BD91 /* AirNFC.h */,
+				CE4292CF167DD2860047BD91 /* AirNFC.m */,
+				6D3BCABC16C1371A00C4DEB5 /* Audio Connection Engine */,
+			);
+			name = AirNFC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4292A6167DD22F0047BD91 /* AirNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4292CB167DD22F0047BD91 /* Build configuration list for PBXNativeTarget "AirNFC" */;
+			buildPhases = (
+				CE4292A3167DD22F0047BD91 /* Sources */,
+				CE4292A4167DD22F0047BD91 /* Frameworks */,
+				CE4292A5167DD22F0047BD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirNFC;
+			productName = AirNFC;
+			productReference = CE4292A7167DD22F0047BD91 /* AirNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE42929E167DD22F0047BD91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Matteo Cortonesi";
+			};
+			buildConfigurationList = CE4292A1167DD22F0047BD91 /* Build configuration list for PBXProject "AirNFC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE42929C167DD22F0047BD91;
+			productRefGroup = CE4292A8167DD22F0047BD91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4292A6167DD22F0047BD91 /* AirNFC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4292A5167DD22F0047BD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4292B6167DD22F0047BD91 /* InfoPlist.strings in Resources */,
+				CE4292BE167DD22F0047BD91 /* Default.png in Resources */,
+				CE4292C0167DD22F0047BD91 /* Default@2x.png in Resources */,
+				CE4292C2167DD22F0047BD91 /* Default-568h@2x.png in Resources */,
+				CE4292C5167DD22F0047BD91 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4292A3167DD22F0047BD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4292B8167DD22F0047BD91 /* main.m in Sources */,
+				CE4292BC167DD22F0047BD91 /* AppDelegate.m in Sources */,
+				CE4292C8167DD22F0047BD91 /* ViewController.m in Sources */,
+				CE4292D0167DD2860047BD91 /* AirNFC.m in Sources */,
+				CE4292E1167E47150047BD91 /* AMAudioSessionManager.m in Sources */,
+				CE4292E4167E4FC40047BD91 /* AirNFCErrors.m in Sources */,
+				CE5256B1169B6BA400DB1DA8 /* AMAudioPort.m in Sources */,
+				6DD1C80816BAC79E00F24238 /* TPCircularBuffer.m in Sources */,
+				6D3BCABB16C1340600C4DEB5 /* AMAudioConnectionEngine.m in Sources */,
+				6D3BCB0716C2CCD300C4DEB5 /* AMDeviceDiscovererModem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE4292B4167DD22F0047BD91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4292B5167DD22F0047BD91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE4292C3167DD22F0047BD91 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4292C4167DD22F0047BD91 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4292C9167DD22F0047BD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE4292CA167DD22F0047BD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4292CC167DD22F0047BD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirNFC/AirNFC-Prefix.pch";
+				INFOPLIST_FILE = "AirNFC/AirNFC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE4292CD167DD22F0047BD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirNFC/AirNFC-Prefix.pch";
+				INFOPLIST_FILE = "AirNFC/AirNFC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4292A1167DD22F0047BD91 /* Build configuration list for PBXProject "AirNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4292C9167DD22F0047BD91 /* Debug */,
+				CE4292CA167DD22F0047BD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4292CB167DD22F0047BD91 /* Build configuration list for PBXNativeTarget "AirNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4292CC167DD22F0047BD91 /* Debug */,
+				CE4292CD167DD22F0047BD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE42929E167DD22F0047BD91 /* Project object */;
+}
